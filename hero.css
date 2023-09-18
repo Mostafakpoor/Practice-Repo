@@ -1,0 +1,428 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: rgb(255, 255, 255);
+
+}
+.hero{
+	background-color: #6C63FF;
+	border-radius: 20px 20px 0px 70px;
+	width: 100%;
+	height: 470px;
+}
+.hero > div{
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	gap: 32px;
+}
+.teacher-image{
+	width: 270px;
+	position: relative;
+	left: 7.5rem;
+	top: 4.4rem;
+}
+.profile{
+	position: absolute;
+	top: 0rem;
+}
+.box-name{
+	position: absolute;
+	display: flex;
+	width: 111.187px;
+	height: 47.651px;
+	left: 20rem;
+	top: 8.6rem;
+	align-items: center; 
+	gap: 10px;
+	flex-shrink: 0;
+	border-radius: 8px;
+	background: #FF5757;
+}
+.pointer-name{
+	position: absolute;
+	width: 11px;
+	height: 10px;
+	transform: rotate(1deg);
+	flex-shrink: 0;
+	left: 19.6rem;
+	top: 9.5rem;
+}
+.box-name h2{
+	position: absolute;
+	left: 16px;
+	color: #FFF;
+	font-family: 'Vazirmatn';
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+.tutorial-specs{
+	width: fit-content;
+	display: flex;
+	gap: 0px 32px;
+	justify-content: center;
+	text-align: center;
+	margin-left: 128px;
+	margin-top: 43px;
+}
+.spec img{
+	width: 40px;
+	height: 40px;
+}
+.spec p{
+	font-family: 'Vazirmatn';
+	font-size: 11px;
+	font-style: normal;
+	font-weight: 500;
+	color: #FFF;
+	opacity: 0.9;
+	text-align: center;
+}
+.about-edris{
+	position: relative;
+	right: 3rem;
+	top: 4rem;
+	color: var(--dark, #323030);
+	text-align: right;
+	font-family: "Vazirmatn";
+	font-size: 35px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	direction: rtl;
+}
+.Paragraph{
+	position: relative;
+	right: 3rem;
+	top: 3rem;
+color: var(--dark, #323030);
+text-align: justify;
+font-family: "Vazirmatn";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 42px;
+direction: rtl;
+letter-spacing: -1px;
+word-spacing: -1px;
+}
+.Suitable-items{
+    width: 1172px;
+    height: 277px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: var(--light, #FAFAFA);
+    box-shadow: 0px 0px 30px 0px rgba(41, 41, 41, 0.20);
+    color: var(--dark, #323030);
+    font-family: "Vazirmatn";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 190%;
+    justify-items: center;
+    list-style-image: none;
+}
+.jadval{
+    margin-top: 4px;
+}
+.suitable-box,.suitable-for{
+	margin-top: 60rem;
+}
+.suitable-box{
+	position: absolute;
+	background-color: #fafafa;
+	width: 907px;
+	height: 218px;
+	flex-shrink: 0;
+	box-shadow: 0px 0px 30px 0px rgba(41, 41, 41, 0.20);
+	border-radius: 16px;
+	top: 500px;
+	right: 160px;
+	z-index: -1;
+}
+.suitable-box img{
+	width: 40rem;
+	position: relative;
+	top: 42px;
+	right: 160px;
+	bottom: 42px;
+}
+.suitable-for{
+	position: relative;
+	bottom: 10px;
+	margin-right: 48px;
+	width: 220px;
+	height: 220px;
+	border-radius: 16px;
+	background-color: #FAFAFA;
+	box-shadow: 0px 0px 20px 0px rgba(41, 41, 41, 0.20);
+}
+.title-img{
+	position: relative;
+	bottom: 45px;
+	right: 26px;
+}
+.like-icon{
+	margin-right: 7.8rem;
+}
+.unfit-box{
+	position: relative;
+	background-color: #fafafa;
+	width: 907px;
+	height: 218px;
+	flex-shrink: 0;
+	box-shadow: 2px 2px 30px 0px rgba(41, 41, 41, 0.20);
+	border-radius: 16px;
+	top: 10rem;
+	right: 50px;
+	z-index: -1;
+}
+.unfit-box p::before{
+	content: '✖';
+	font-family: sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 900;
+	line-height: 190%;
+	position: relative;
+	bottom: 3px;
+	left: 9px;
+}
+.unfit-box p{
+	width: 100%;
+	position: relative;
+	top: 42px;
+	right: 70px;
+	bottom: 42px;
+	color: #323030;
+	font-family: 'Vazirmatn';
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 300;
+	margin: 2px;
+}	
+.unfit-for{
+	position: relative;
+	bottom: 6rem;
+	right: 52.5rem;
+	width: 220px;
+	height: 220px;
+	border-radius: 16px;
+	background-color: #FAFAFA;
+	box-shadow: 0px 0px 20px 0px rgba(41, 41, 41, 0.20);
+}
+.title0-img{
+	position: relative;
+	bottom: 21px;
+	right: 26px;
+	width: 9rem;
+}
+.dislike-icon{
+	position: relative;
+	top: 10px;
+	right: 6.9rem;
+	width: 5.9rem;
+}
+.tutorial-overview{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+	align-self: flex-end;
+	position: relative;
+	bottom: 20.3rem;
+	right: 5.8rem;
+	width: 25rem; 
+	height: 24rem;
+    border-radius: 16px;
+    background-color:#FFFFFF;
+	box-shadow: 8px 8px 32px 0px rgba(41, 41, 41, 0.16);
+}
+h1{
+	position: relative;
+	bottom: 1rem;
+    color:#6C63FF;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 62.5px;
+	font-family: 'Vazirmatn';
+}
+.tutorial-overview-text1{
+    color:#323030;
+    font-weight: 300;
+	font-family: 'Vazirmatn';
+	position: relative;
+	bottom: 3.5rem;
+}
+.tutorial-overview-text2{
+	color: #323030;
+	font-weight: 300;
+	font-family: 'Vazirmatn';
+	position: relative;
+	bottom: 5.5rem;
+}
+.video-player{
+    position: relative;
+    width: 100%;
+}
+video{
+	position: relative;
+	left: 3px;
+	top: 4px;
+    width: 22rem;
+    border-radius: 16px;
+	border-radius: 16px;
+	background: #323030;
+	box-shadow: 0px 0px 30px 4px rgba(41, 41, 41, 0.20);
+}
+
+.video-icon{
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 26px;
+    margin: auto;
+	width: 3.5rem;
+}
+.video-cover-shadow{
+	display: inline-block;
+    position: absolute;
+    z-index: 1;
+    width: 2rem;
+	height: 3rem;	
+    border-radius: 15px;
+	top: -7rem;
+	left: 1.2rem;
+}
+.footerBox{
+    border-radius: 16px;
+    background: #FAFAFA;
+    box-shadow: 0px 0px 30px 0px rgba(41, 41, 41, 0.20);
+    display: flex;
+    padding: 32px;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+	height: 330px;
+}
+.footerBox p{
+    color: #323030;
+    text-align: right;
+    font-family: 'Vazirmatn';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+}
+.tutorial-attributes{
+    display: flex;
+    flex-direction: column;
+	justify-content: space-between;
+	position: relative;
+	top: 4rem;
+	right: 4.4rem;
+    width: 70rem;
+    padding: 10px;
+    align-items: center;
+    margin: auto;
+    gap: 16px;
+    border-radius: 16px;
+}
+.tutorial-attributes-content{
+    display: flex;
+    gap: 16px;
+}
+.TitleBox{
+    display: flex;
+	height: 300px;
+    width: 415px;
+    padding: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex-shrink: 0;
+    align-self: stretch;
+    border-radius: 16px;
+    background: #FAFAFA;
+    box-shadow: 0px 0px 30px 0px rgba(41, 41, 41, 0.20);
+}
+.accordion-item{
+    display: flex;
+    height: 40px;
+    padding: 0px 16px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+    direction: ltr;
+}
+.accordion-item p{
+    color: #323030;
+    text-align: right;
+    font-family: 'Vazirmatn';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.accordion-item:hover{
+    display: flex;
+    height: 70px;
+    padding: 0px 16px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+    border-radius: 16px;
+    background: #7C96F7;
+}
+.accordion-item:hover p{
+    color: #FFF;
+    text-align: right;
+    font-family: 'Vazirmatn';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.tutorial-attributes-titlebox{
+    display: flex;
+}
+.tutorial-attributes-title{
+    color: #6C63FF;
+    font-family: 'Vazirmatn';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+	text-align: justify;
+	position: relative;
+	direction: rtl;
+	left: 29rem;
+}
+.accordion-item:first-child{
+    display: flex;
+    height: 70px;
+    padding: 0px 16px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+    direction: ltr;
+    background-color:#6C63FF;
+    border-radius: 16px;
+}
+.accordion-item:first-child p{
+    color: #FFF;
+    text-align: right;
+    font-family: 'Vazirmatn';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
